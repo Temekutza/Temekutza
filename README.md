@@ -11,7 +11,7 @@
 <br/>
 
 [![GitHub](https://img.shields.io/badge/GitHub-Temekutza-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Temekutza)
-![Profile Views](https://komarev.com/ghpvc/?username=Temekutza&style=for-the-badge&label=PROFILE+VIEWS)
+![GitHub followers](https://img.shields.io/github/followers/Temekutza?style=for-the-badge&logo=github&label=FOLLOWERS)
 
 </div>
 
