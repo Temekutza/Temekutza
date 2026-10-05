@@ -11,7 +11,7 @@
 <br/>
 
 ![Followers](https://img.shields.io/github/followers/Temekutza?style=flat-square&label=followers&color=090D15&labelColor=090D15)
-![Public repos](https://img.shields.io/badge/public_repos-22-090D15?style=flat-square&logo=github&logoColor=white)
+![Public repos](https://img.shields.io/badge/public_repos-20-090D15?style=flat-square&logo=github&logoColor=white)
 
 </div>
 
