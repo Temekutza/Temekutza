@@ -22,8 +22,8 @@
     <text x="72" y="62" fill="#7D8590" font-size="17">~/github/profile</text>
     <text x="72" y="135" fill="#F0F6FC" font-size="52" font-weight="700" letter-spacing="2">TEMEKUTZA</text>
     <rect x="72" y="154" width="570" height="3" rx="2" fill="url(#accent)"/>
-    <text x="72" y="198" fill="#B8C2D1" font-size="21" font-weight="600">AI ENGINEER  //  BACKEND  //  ML + LLM SYSTEMS</text>
-    <text x="72" y="240" fill="#7D8590" font-size="16">python • fastapi • postgresql • pytorch • docker • rag • agents</text>
+    <text x="72" y="198" fill="#B8C2D1" font-size="21" font-weight="600">SOFTWARE ENGINEER  //  DATA ENGINEER  //  AI SYSTEMS</text>
+    <text x="72" y="240" fill="#7D8590" font-size="16">python • sql • postgresql • fastapi • docker • data • ai</text>
 
     <text x="830" y="92" fill="#58A6FF" font-size="17">$ whoami</text>
     <text x="830" y="122" fill="#8B949E" font-size="15">artem@temekutza</text>
