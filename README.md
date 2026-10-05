@@ -1,37 +1,43 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Temekutza/Temekutza/main/assets/header-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Temekutza/Temekutza/main/assets/header-light.svg">
+  <img alt="Temekutza — AI Engineer" src="https://raw.githubusercontent.com/Temekutza/Temekutza/main/assets/header-dark.svg" width="100%">
+</picture>
+
 <div align="center">
 
-# 👋 Hi, I'm Artem
-
-### AI Engineer · Backend Developer · ML / LLM Systems
-
-**I build AI systems that do more than chat — agents, RAG pipelines, knowledge graphs, backend services and applied ML products.**
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=900&center=true&vCenter=true&width=760&lines=AI+Agents+%E2%80%A2+RAG+%E2%80%A2+LLM+Systems;FastAPI+%E2%80%A2+PostgreSQL+%E2%80%A2+Docker;Machine+Learning+%E2%80%A2+PyTorch+%E2%80%A2+XGBoost;Build+%E2%86%92+Measure+%E2%86%92+Improve+%E2%86%92+Ship" alt="Typing SVG" />
-
-<br/>
-
-[![GitHub](https://img.shields.io/badge/GitHub-Temekutza-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Temekutza)
-![GitHub followers](https://img.shields.io/github/followers/Temekutza?style=for-the-badge&logo=github&label=FOLLOWERS)
+[![GitHub](https://img.shields.io/badge/GitHub-Temekutza-090D15?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Temekutza)
+![Followers](https://img.shields.io/github/followers/Temekutza?style=for-the-badge&label=FOLLOWERS&color=090D15)
+![Stars](https://img.shields.io/github/stars/Temekutza?affiliations=OWNER&style=for-the-badge&label=STARS&color=090D15)
 
 </div>
 
----
+<h3 align="center">• • •</h3>
 
-## 🧠 About me
+```yaml
+name: Artem
+handle: "@Temekutza"
+role: "AI Engineer / Backend Developer"
 
-I'm focused on **AI engineering, backend development and production-oriented ML systems**.
+focus:
+  - AI Agents
+  - RAG & Vector Search
+  - Backend Architecture
+  - Applied Machine Learning
+  - AI Security
 
-- 🤖 Building **LLM agents** with tools, memory and external integrations
-- 🔎 Working with **RAG, embeddings, vector search and knowledge graphs**
-- ⚙️ Developing backend services with **Python, FastAPI, PostgreSQL and REST APIs**
-- 📊 Creating applied **Machine Learning / Deep Learning** solutions
-- 🐳 Deploying services with **Docker, Linux and Nginx**
-- 🔐 Exploring **AI security** and secure AI-generated software
-- 🚀 Interested in systems that connect models to real data, services and user actions
+building:
+  - long-term memory for AI agents
+  - tool-using agent orchestration
+  - production FastAPI services
+  - intelligent search & analytics systems
 
----
+principle: "AI should be a system component, not decoration."
+```
 
-## 🚀 Featured projects
+<h3 align="center">• • •</h3>
+
+## ⚡ Selected work
 
 <table>
 <tr>
@@ -39,17 +45,17 @@ I'm focused on **AI engineering, backend development and production-oriented ML 
 
 ### 🧶 [ScientificBall](https://github.com/Temekutza/ScientificBall)
 
-Intelligent search and analytics platform for scientific data.
+Intelligent search and analytics system for scientific data.
 
-**Highlights**
-- Semantic Search + RAG
+**Inside**
+- Semantic Search / RAG
 - Knowledge Graph
 - Hybrid retrieval
 - LLM-powered summaries
 - Document ingestion pipeline
 
 **Stack**  
-`Python` `FastAPI` `React` `Qdrant` `NetworkX` `Neo4j` `LLM`
+`Python` `FastAPI` `React` `Qdrant` `NetworkX` `Neo4j`
 
 </td>
 <td width="50%" valign="top">
@@ -58,7 +64,7 @@ Intelligent search and analytics platform for scientific data.
 
 ML system for early prediction of failures in district-heating infrastructure.
 
-**Highlights**
+**Inside**
 - Time-series feature engineering
 - Multiple prediction horizons
 - Accident-risk prediction
@@ -76,9 +82,9 @@ ML system for early prediction of failures in district-heating infrastructure.
 
 ### 🧠 [EEGSAL](https://github.com/Temekutza/EEGSAL)
 
-EEG sleep-spindle detection with neural networks and **Active Learning**.
+EEG sleep-spindle detection using neural networks and **Active Learning**.
 
-**Highlights**
+**Inside**
 - EEG signal processing
 - MLP classifier
 - Uncertainty sampling
@@ -91,97 +97,88 @@ EEG sleep-spindle detection with neural networks and **Active Learning**.
 </td>
 <td width="50%" valign="top">
 
-### ⚡ Current focus
+### 🤖 Current direction
 
-Building AI systems that can **reason, retrieve context and take useful actions**.
+I’m building systems that can **retrieve context, reason over it and take useful actions**.
 
 **Working on**
-- Long-term memory for AI agents
-- Tool-using agent orchestration
+- AI agents with long-term memory
+- Tool orchestration
 - External service integrations
-- Hybrid retrieval / RAG
-- AI-assisted software security
-- Reliable backend architecture for LLM products
-
-**Focus**  
-`AI Agents` `RAG` `AppSec` `Backend` `Cloud`
+- Hybrid retrieval
+- AI-generated code security
+- Reliable LLM backends
 
 </td>
 </tr>
 </table>
 
----
+<h3 align="center">• • •</h3>
 
-## 🛠️ Tech stack
+## 🛠 Technology map
 
 <div align="center">
 
-### AI / ML / Data
+### AI / Data
 
-<img src="https://skillicons.dev/icons?i=python,pytorch,postgres" alt="AI stack" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="48" title="Python" />
+&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg" width="48" title="PyTorch" />
+&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" width="48" title="PostgreSQL" />
+&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg" width="48" title="pandas" />
+&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg" width="48" title="NumPy" />
 
-`Machine Learning` · `Deep Learning` · `LLM` · `RAG` · `Embeddings` · `Vector Search` · `Knowledge Graphs` · `XGBoost` · `pandas` · `NumPy` · `scikit-learn` · `pgvector`
+`LLM` · `RAG` · `Embeddings` · `Vector Search` · `Knowledge Graphs` · `XGBoost` · `pgvector`
 
-### Backend
+### Backend / Infrastructure
 
-<img src="https://skillicons.dev/icons?i=fastapi,dotnet,postgres" alt="Backend stack" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg" width="48" title="FastAPI" />
+&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" width="48" title="Docker" />
+&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" width="48" title="Linux" />
+&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nginx/nginx-original.svg" width="48" title="Nginx" />
+&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="48" title="Git" />
 
-`FastAPI` · `REST API` · `PostgreSQL` · `SQL` · `ASP.NET Core`
+`REST API` · `PostgreSQL` · `SQL` · `Docker` · `Linux` · `Nginx` · `CI/CD`
 
-### Infrastructure
+### Product / Frontend
 
-<img src="https://skillicons.dev/icons?i=docker,linux,nginx,git,github" alt="Infrastructure stack" />
-
-`Docker` · `Linux` · `Nginx` · `Git` · `GitHub` · `CI/CD`
-
-### Frontend
-
-<img src="https://skillicons.dev/icons?i=react,js,html,css" alt="Frontend stack" />
-
-`React` · `JavaScript` · `HTML` · `CSS`
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" width="48" title="React" />
+&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="48" title="JavaScript" />
+&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="48" title="HTML" />
+&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="48" title="CSS" />
 
 </div>
 
----
+<h3 align="center">• • •</h3>
 
-## 🧩 How I approach engineering
+## 🧩 How I build
 
 ```text
-Problem
-  ↓
-Understand the domain
-  ↓
-Design the architecture
-  ↓
-Build the smallest useful version
-  ↓
-Measure with real data
-  ↓
-Improve reliability & UX
-  ↓
-Ship
+domain → architecture → MVP → real data → measurement → reliability → ship
 ```
 
-I like projects where **AI is a system component, not a decoration**: the model should have the right context, the right tools, clear boundaries and measurable output.
+I prefer systems where the model has:
 
----
+- the **right context**
+- the **right tools**
+- explicit **boundaries and policies**
+- measurable **quality**
+- a backend that survives outside the demo
 
-## 📊 GitHub stats
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Temekutza&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Temekutza&layout=compact&hide_border=true&langs_count=8" alt="Top languages" />
+<details>
+<summary><b>🔬 Current engineering interests</b></summary>
 
 <br/>
-
-<img src="https://streak-stats.demolab.com?user=Temekutza&hide_border=true" alt="GitHub streak" />
-
-</div>
-
----
-
-## 🎯 Engineering interests
 
 ```text
 AI Agents         ████████████████████
@@ -192,12 +189,12 @@ AI Security       ████████████████░░░░
 Infrastructure    ███████████████░░░░░
 ```
 
----
+</details>
 
-<div align="center">
+<br/>
 
-### Build · Experiment · Ship · Improve
-
-**Interested in intelligent systems that can actually do things.**
-
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Temekutza/Temekutza/main/assets/footer-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Temekutza/Temekutza/main/assets/footer-light.svg">
+  <img alt="Build Experiment Ship Improve" src="https://raw.githubusercontent.com/Temekutza/Temekutza/main/assets/footer-dark.svg" width="100%">
+</picture>
