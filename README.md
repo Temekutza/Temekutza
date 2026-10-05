@@ -12,6 +12,12 @@
 
 </div>
 
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2600&pause=800&center=true&vCenter=true&width=820&lines=AI+Agents+%E2%86%92+Memory+%E2%86%92+Tools+%E2%86%92+Actions;RAG+%E2%80%A2+Vector+Search+%E2%80%A2+Knowledge+Graphs;FastAPI+%E2%80%A2+PostgreSQL+%E2%80%A2+Docker+%E2%80%A2+Linux;Machine+Learning+%E2%80%A2+PyTorch+%E2%80%A2+XGBoost" alt="Typing SVG" />
+
+</div>
+
 <h3 align="center">• • •</h3>
 
 ```yaml
