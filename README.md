@@ -23,20 +23,20 @@
 ```yaml
 name: Artem
 handle: "@Temekutza"
-role: "AI Engineer / Backend Developer"
+role: "Software Engineer / Data Engineer"
 
 focus:
-  - AI Agents
-  - RAG & Vector Search
+  - Software Engineering
+  - Data Engineering
   - Backend Architecture
-  - Applied Machine Learning
-  - AI Security
+  - AI / ML Systems
+  - Data Platforms & Pipelines
 
 building:
-  - long-term memory for AI agents
-  - tool-using agent orchestration
+  - backend and distributed services
+  - data pipelines and processing systems
+  - AI agents and retrieval systems
   - production FastAPI services
-  - intelligent search & analytics systems
 
 principle: "AI should be a system component, not decoration."
 ```
@@ -105,15 +105,15 @@ EEG sleep-spindle detection using neural networks and **Active Learning**.
 
 ### 🤖 Current direction
 
-I’m building systems that can **retrieve context, reason over it and take useful actions**.
+I’m building **backend, data and AI systems** that turn raw information into reliable products and useful actions.
 
 **Working on**
-- AI agents with long-term memory
-- Tool orchestration
-- External service integrations
-- Hybrid retrieval
+- Backend services and APIs
+- Data processing and pipelines
+- Storage, retrieval and analytics
+- AI agents and hybrid retrieval
 - AI-generated code security
-- Reliable LLM backends
+- Reliable production systems
 
 </td>
 </tr>
