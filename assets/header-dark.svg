@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Temekutza — AI Engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#090D15"/>
+      <stop offset="55%" stop-color="#0D1422"/>
+      <stop offset="100%" stop-color="#101827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#58A6FF"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#FFFFFF" stroke-opacity=".035" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="300" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="24" fill="url(#grid)"/>
+  <rect x="1" y="1" width="1198" height="298" rx="23" fill="none" stroke="#FFFFFF" stroke-opacity=".10"/>
+
+  <g opacity=".72" stroke="url(#accent)" stroke-width="1.4">
+    <path d="M850 72 L945 116 L1043 72 L1124 119" opacity=".42"/>
+    <path d="M850 72 L922 191 L1032 217 L1124 119" opacity=".34"/>
+    <path d="M945 116 L922 191 L1032 217 L1043 72" opacity=".56"/>
+    <path d="M945 116 L1124 119" opacity=".22"/>
+    <path d="M850 72 L1032 217" opacity=".22"/>
+  </g>
+  <g fill="#8B5CF6" filter="url(#glow)">
+    <circle cx="850" cy="72" r="4"/>
+    <circle cx="945" cy="116" r="5"/>
+    <circle cx="1043" cy="72" r="4"/>
+    <circle cx="1124" cy="119" r="5"/>
+    <circle cx="922" cy="191" r="5"/>
+    <circle cx="1032" cy="217" r="5"/>
+  </g>
+
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace">
+    <text x="72" y="62" fill="#7D8590" font-size="17">~/github/profile</text>
+    <text x="72" y="135" fill="#F0F6FC" font-size="52" font-weight="700" letter-spacing="2">TEMEKUTZA</text>
+    <rect x="72" y="154" width="570" height="3" rx="2" fill="url(#accent)"/>
+    <text x="72" y="198" fill="#B8C2D1" font-size="21" font-weight="600">AI ENGINEER  //  BACKEND  //  ML + LLM SYSTEMS</text>
+    <text x="72" y="240" fill="#7D8590" font-size="16">python • fastapi • postgresql • pytorch • docker • rag • agents</text>
+  </g>
+
+  <g transform="translate(72 265)">
+    <circle cx="5" cy="0" r="5" fill="#3FB950"/>
+    <text x="18" y="5" fill="#8B949E" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="14">building systems that can actually do things</text>
+  </g>
+</svg>
