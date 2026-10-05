@@ -13,31 +13,10 @@
     <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
       <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#FFFFFF" stroke-opacity=".035" stroke-width="1"/>
     </pattern>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="6" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
   </defs>
-
   <rect width="1200" height="300" rx="24" fill="url(#bg)"/>
   <rect width="1200" height="300" rx="24" fill="url(#grid)"/>
   <rect x="1" y="1" width="1198" height="298" rx="23" fill="none" stroke="#FFFFFF" stroke-opacity=".10"/>
-
-  <g opacity=".72" stroke="url(#accent)" stroke-width="1.4">
-    <path d="M850 72 L945 116 L1043 72 L1124 119" opacity=".42"/>
-    <path d="M850 72 L922 191 L1032 217 L1124 119" opacity=".34"/>
-    <path d="M945 116 L922 191 L1032 217 L1043 72" opacity=".56"/>
-    <path d="M945 116 L1124 119" opacity=".22"/>
-    <path d="M850 72 L1032 217" opacity=".22"/>
-  </g>
-  <g fill="#8B5CF6" filter="url(#glow)">
-    <circle cx="850" cy="72" r="4"/>
-    <circle cx="945" cy="116" r="5"/>
-    <circle cx="1043" cy="72" r="4"/>
-    <circle cx="1124" cy="119" r="5"/>
-    <circle cx="922" cy="191" r="5"/>
-    <circle cx="1032" cy="217" r="5"/>
-  </g>
 
   <g font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace">
     <text x="72" y="62" fill="#7D8590" font-size="17">~/github/profile</text>
@@ -45,6 +24,12 @@
     <rect x="72" y="154" width="570" height="3" rx="2" fill="url(#accent)"/>
     <text x="72" y="198" fill="#B8C2D1" font-size="21" font-weight="600">AI ENGINEER  //  BACKEND  //  ML + LLM SYSTEMS</text>
     <text x="72" y="240" fill="#7D8590" font-size="16">python • fastapi • postgresql • pytorch • docker • rag • agents</text>
+
+    <text x="830" y="92" fill="#58A6FF" font-size="17">$ whoami</text>
+    <text x="830" y="122" fill="#8B949E" font-size="15">artem@temekutza</text>
+    <text x="830" y="166" fill="#8B5CF6" font-size="17">$ status</text>
+    <text x="830" y="196" fill="#8B949E" font-size="15">building → shipping</text>
+    <text x="830" y="240" fill="#22D3EE" font-size="17">█</text>
   </g>
 
   <g transform="translate(72 265)">
