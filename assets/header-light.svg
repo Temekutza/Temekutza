@@ -2,7 +2,7 @@
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#FFFFFF"/>
-      <stop offset="55%" stop-color="#F6F8FA"/>
+      <stop offset="58%" stop-color="#F7F9FC"/>
       <stop offset="100%" stop-color="#EEF2F7"/>
     </linearGradient>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
@@ -10,20 +10,67 @@
       <stop offset="52%" stop-color="#8250DF"/>
       <stop offset="100%" stop-color="#0891B2"/>
     </linearGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1F2328" stroke-opacity=".035" stroke-width="1"/>
-    </pattern>
+    <radialGradient id="halo">
+      <stop offset="0%" stop-color="#8250DF" stop-opacity=".20"/>
+      <stop offset="55%" stop-color="#0969DA" stop-opacity=".07"/>
+      <stop offset="100%" stop-color="#0891B2" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
   </defs>
 
   <rect width="1200" height="280" rx="24" fill="url(#bg)"/>
-  <rect width="1200" height="280" rx="24" fill="url(#grid)"/>
   <rect x="1" y="1" width="1198" height="278" rx="23" fill="none" stroke="#1F2328" stroke-opacity=".10"/>
 
-  <g font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" text-anchor="middle">
-    <text x="600" y="68" fill="#656D76" font-size="16" letter-spacing="3">GITHUB / PROFILE</text>
-    <text x="600" y="138" fill="#1F2328" font-size="54" font-weight="700" letter-spacing="6">TEMEKUTZA</text>
-    <rect x="355" y="158" width="490" height="3" rx="2" fill="url(#accent)"/>
-    <text x="600" y="202" fill="#424A53" font-size="21" font-weight="600">SOFTWARE ENGINEER  ·  DATA ENGINEER  ·  AI SYSTEMS</text>
-    <text x="600" y="239" fill="#656D76" font-size="15">python · sql · postgresql · fastapi · docker · data · ai</text>
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace">
+    <text x="78" y="65" fill="#656D76" font-size="16" letter-spacing="3">GITHUB / PROFILE</text>
+    <text x="78" y="134" fill="#1F2328" font-size="54" font-weight="700" letter-spacing="6">TEMEKUTZA</text>
+    <rect x="78" y="153" width="560" height="3" rx="2" fill="url(#accent)"/>
+    <text x="78" y="198" fill="#424A53" font-size="21" font-weight="600">SOFTWARE ENGINEER · DATA ENGINEER · AI SYSTEMS</text>
+    <text x="78" y="236" fill="#656D76" font-size="15">python · sql · postgresql · fastapi · docker · data · ai</text>
+  </g>
+
+  <g transform="translate(995 140)">
+    <ellipse rx="178" ry="128" fill="url(#halo)"/>
+
+    <circle r="18" fill="#8250DF" opacity=".88" filter="url(#glow)">
+      <animate attributeName="r" values="16;20;16" dur="3.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".72;.95;.72" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="8" fill="#FFFFFF"/>
+
+    <g fill="none">
+      <circle r="44" stroke="#0969DA" stroke-width="1.5" stroke-opacity=".68" stroke-dasharray="6 8">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="12s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="76" stroke="#8250DF" stroke-width="1.4" stroke-opacity=".60" stroke-dasharray="10 12">
+        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="19s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="108" stroke="#0891B2" stroke-width="1.25" stroke-opacity=".45" stroke-dasharray="4 13">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="27s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <g opacity=".40" fill="none" stroke-width="1">
+      <path d="M-118 -36 C-58 -94 58 -94 118 -36" stroke="#0969DA"/>
+      <path d="M-118 36 C-58 94 58 94 118 36" stroke="#8250DF"/>
+      <path d="M-35 -114 C38 -63 38 63 -35 114" stroke="#0891B2"/>
+    </g>
+
+    <circle r="4.5" fill="#0969DA" filter="url(#glow)">
+      <animateMotion dur="4.8s" repeatCount="indefinite" path="M -118 -36 C -58 -94 58 -94 118 -36 C 58 4 -58 4 -118 -36"/>
+    </circle>
+    <circle r="4" fill="#8250DF" filter="url(#glow)">
+      <animateMotion dur="6.2s" repeatCount="indefinite" path="M -118 36 C -58 94 58 94 118 36 C 58 -4 -58 -4 -118 36"/>
+    </circle>
+    <circle r="3.8" fill="#0891B2" filter="url(#glow)">
+      <animateMotion dur="5.4s" repeatCount="indefinite" path="M -35 -114 C 38 -63 38 63 -35 114 C -90 58 -90 -58 -35 -114"/>
+    </circle>
+
+    <g font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" fill="#656D76" text-anchor="middle">
+      <text x="0" y="132">DATA CORE</text>
+    </g>
   </g>
 </svg>
