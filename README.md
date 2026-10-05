@@ -1,8 +1,8 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Temekutza/Temekutza/main/assets/header-clean-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Temekutza/Temekutza/main/assets/header-clean-light.svg">
-  <img alt="Temekutza — Software Engineer & Data Engineer" src="https://raw.githubusercontent.com/Temekutza/Temekutza/main/assets/header-clean-dark.svg" width="100%">
-</picture>
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/Temekutza/Temekutza/main/assets/header-universe.svg" width="100%" alt="Temekutza technology universe" />
+
+</div>
 
 <div align="center">
 
