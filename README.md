@@ -6,7 +6,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2700&pause=850&center=true&vCenter=true&width=860&lines=Software+Engineering+%E2%80%A2+Backend+Systems+%E2%80%A2+APIs;Data+Engineering+%E2%80%A2+SQL+%E2%80%A2+Pipelines+%E2%80%A2+Storage;AI+Systems+%E2%80%A2+RAG+%E2%80%A2+Agents+%E2%80%A2+Vector+Search;Python+%E2%80%A2+FastAPI+%E2%80%A2+PostgreSQL+%E2%80%A2+Docker" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2700&pause=850&center=true&vCenter=true&width=860&lines=Software+Engineering+%E2%80%A2+Backend+Architecture+%E2%80%A2+Distributed+Systems;Data+Engineering+%E2%80%A2+ETL%2FELT+%E2%80%A2+SQL+%E2%80%A2+Data+Pipelines;PostgreSQL+%E2%80%A2+FastAPI+%E2%80%A2+Docker+%E2%80%A2+Linux;AI+%2F+ML+Systems+%E2%80%A2+RAG+%E2%80%A2+Vector+Search+%E2%80%A2+Agents" alt="Typing SVG" />
 
 <br/>
 
