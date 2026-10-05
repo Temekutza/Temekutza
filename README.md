@@ -103,7 +103,7 @@ EEG sleep-spindle detection using neural networks and **Active Learning**.
 </td>
 <td width="50%" valign="top">
 
-### 🤖 Current direction
+### ⚡ Current direction
 
 I’m building **backend, data and AI systems** that turn raw information into reliable products and useful actions.
 
