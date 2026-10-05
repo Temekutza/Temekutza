@@ -1,0 +1,573 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-label="Temekutza black hole technology universe">
+<defs>
+<style>
+.star-slow{animation:tw 8s ease-in-out infinite}.star-mid{animation:tw 5.4s ease-in-out infinite}.star-fast{animation:tw 3.7s ease-in-out infinite}
+@keyframes tw{0%,100%{opacity:.07}50%{opacity:.72}}
+.shooting{opacity:0;animation:shoot linear infinite}
+@keyframes shoot{0%{opacity:0;transform:translate(0,0)}4%{opacity:.85}14%{opacity:.5;transform:translate(var(--tx),var(--ty))}19%{opacity:0;transform:translate(var(--tx),var(--ty))}100%{opacity:0}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+
+<path id="cyan-launch" d="M600 235 C612 219 632 220 640 236 C648 253 632 270 611 261 C586 250 586 222 612 205 C650 180 710 184 760 207 C783 218 797 228 805 235"/>
+<path id="cyan-orbit" d="M805 235 A205 58 0 1 1 395 235 A205 58 0 1 1 805 235"/>
+<path id="violet-launch" d="M600 235 C610 216 635 212 648 232 C662 253 642 279 615 272 C583 264 574 226 603 197 C648 151 732 145 812 174 C858 191 893 215 915 235"/>
+<path id="violet-orbit" d="M915 235 A315 90 0 1 1 285 235 A315 90 0 1 1 915 235"/>
+<path id="gold-launch" d="M600 235 C610 212 641 205 658 228 C677 254 652 288 618 282 C576 274 558 224 590 181 C641 112 748 102 860 139 C934 164 989 203 1030 235"/>
+<path id="gold-orbit" d="M1030 235 A430 122 0 1 1 170 235 A430 122 0 1 1 1030 235"/>
+
+
+<radialGradient id="bg" cx="50%" cy="58%" r="67%">
+  <stop offset="0%" stop-color="#10192c"/>
+  <stop offset="57%" stop-color="#0a101b"/>
+  <stop offset="100%" stop-color="#070b12"/>
+</radialGradient>
+<linearGradient id="cyanLine"><stop offset="0%" stop-color="#22d3ee" stop-opacity=".07"/><stop offset="50%" stop-color="#22d3ee" stop-opacity=".96"/><stop offset="100%" stop-color="#22d3ee" stop-opacity=".07"/></linearGradient>
+<linearGradient id="violetLine"><stop offset="0%" stop-color="#a78bfa" stop-opacity=".06"/><stop offset="50%" stop-color="#a78bfa" stop-opacity=".92"/><stop offset="100%" stop-color="#a78bfa" stop-opacity=".06"/></linearGradient>
+<linearGradient id="goldLine"><stop offset="0%" stop-color="#fbbf24" stop-opacity=".05"/><stop offset="50%" stop-color="#fbbf24" stop-opacity=".86"/><stop offset="100%" stop-color="#fbbf24" stop-opacity=".05"/></linearGradient>
+<linearGradient id="edgeGradient" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0%" stop-color="#22d3ee" stop-opacity=".65"/>
+  <stop offset="28%" stop-color="#ffffff" stop-opacity=".16"/>
+  <stop offset="58%" stop-color="#a78bfa" stop-opacity=".60"/>
+  <stop offset="100%" stop-color="#fbbf24" stop-opacity=".34"/>
+</linearGradient>
+<linearGradient id="shoot" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#fff" stop-opacity=".9"/><stop offset="100%" stop-color="#fff" stop-opacity="0"/></linearGradient>
+
+<filter id="softGlow" x="-150%" y="-150%" width="400%" height="400%"><feGaussianBlur stdDeviation="3.0" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="axisGlow" x="-30%" y="-90%" width="160%" height="280%"><feGaussianBlur stdDeviation="4.5"/></filter>
+<filter id="flowBlur" x="-120%" y="-120%" width="340%" height="340%"><feGaussianBlur stdDeviation="5.5"/></filter>
+<filter id="coreGlow" x="-180%" y="-180%" width="460%" height="460%"><feGaussianBlur stdDeviation="7.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+
+<rect width="1200" height="400" rx="18" fill="#070b12"/>
+<rect width="1200" height="400" rx="18" fill="url(#bg)"/>
+<rect x="1" y="1" width="1198" height="398" rx="17" fill="none" stroke="#fff" stroke-opacity=".055"/>
+
+<circle cx="884.3" cy="27.1" r="0.52" fill="#ffffff" opacity="0.08" class="star-slow" style="animation-duration:3.63s;animation-delay:0.91s"/>
+<circle cx="676.2" cy="105.5" r="1.03" fill="#ffffff" opacity="0.16" class="star-mid" style="animation-duration:3.90s;animation-delay:0.49s"/>
+<circle cx="546.4" cy="215.9" r="1.14" fill="#fbbf24" opacity="0.14" class="star-fast" style="animation-duration:8.88s;animation-delay:0.95s"/>
+<circle cx="330.5" cy="216.7" r="1.25" fill="#ffffff" opacity="0.44" class="star-mid" style="animation-duration:7.41s;animation-delay:1.24s"/>
+<circle cx="983.0" cy="167.2" r="0.72" fill="#22d3ee" opacity="0.07" class="star-slow" style="animation-duration:6.16s;animation-delay:5.18s"/>
+<circle cx="899.4" cy="165.3" r="1.23" fill="#fbbf24" opacity="0.46" class="star-fast" style="animation-duration:5.11s;animation-delay:1.56s"/>
+<circle cx="604.4" cy="368.6" r="1.36" fill="#22d3ee" opacity="0.08" class="star-slow" style="animation-duration:6.87s;animation-delay:5.69s"/>
+<circle cx="627.8" cy="50.7" r="0.99" fill="#22d3ee" opacity="0.13" class="star-mid" style="animation-duration:6.49s;animation-delay:3.68s"/>
+<circle cx="625.8" cy="323.4" r="0.70" fill="#ffffff" opacity="0.30" class="star-fast" style="animation-duration:8.53s;animation-delay:1.12s"/>
+<circle cx="31.6" cy="301.9" r="1.18" fill="#22d3ee" opacity="0.26" class="star-mid" style="animation-duration:8.57s;animation-delay:4.20s"/>
+<circle cx="709.3" cy="386.4" r="0.85" fill="#a78bfa" opacity="0.41" class="star-slow" style="animation-duration:4.87s;animation-delay:2.37s"/>
+<circle cx="731.6" cy="310.3" r="0.74" fill="#fbbf24" opacity="0.25" class="star-fast" style="animation-duration:6.97s;animation-delay:3.17s"/>
+<circle cx="483.2" cy="331.8" r="1.38" fill="#a78bfa" opacity="0.19" class="star-slow" style="animation-duration:9.35s;animation-delay:3.02s"/>
+<circle cx="1013.3" cy="233.6" r="1.01" fill="#22d3ee" opacity="0.39" class="star-mid" style="animation-duration:5.48s;animation-delay:5.07s"/>
+<circle cx="411.5" cy="157.2" r="0.92" fill="#ffffff" opacity="0.32" class="star-fast" style="animation-duration:5.31s;animation-delay:1.06s"/>
+<circle cx="508.1" cy="201.1" r="1.15" fill="#a78bfa" opacity="0.19" class="star-mid" style="animation-duration:8.89s;animation-delay:3.46s"/>
+<circle cx="289.6" cy="194.6" r="1.14" fill="#22d3ee" opacity="0.41" class="star-slow" style="animation-duration:4.64s;animation-delay:2.96s"/>
+<circle cx="1177.0" cy="294.5" r="0.85" fill="#a78bfa" opacity="0.26" class="star-fast" style="animation-duration:4.99s;animation-delay:2.29s"/>
+<circle cx="848.6" cy="94.3" r="0.44" fill="#fbbf24" opacity="0.07" class="star-slow" style="animation-duration:9.08s;animation-delay:5.68s"/>
+<circle cx="1032.8" cy="235.6" r="1.32" fill="#fbbf24" opacity="0.37" class="star-mid" style="animation-duration:6.21s;animation-delay:5.17s"/>
+<circle cx="1016.7" cy="163.0" r="1.30" fill="#a78bfa" opacity="0.43" class="star-fast" style="animation-duration:7.51s;animation-delay:5.57s"/>
+<circle cx="59.5" cy="91.2" r="0.53" fill="#a78bfa" opacity="0.36" class="star-mid" style="animation-duration:8.69s;animation-delay:1.23s"/>
+<circle cx="751.6" cy="319.0" r="0.80" fill="#a78bfa" opacity="0.31" class="star-slow" style="animation-duration:4.07s;animation-delay:2.71s"/>
+<circle cx="1113.3" cy="214.7" r="0.77" fill="#a78bfa" opacity="0.28" class="star-fast" style="animation-duration:3.52s;animation-delay:4.18s"/>
+<circle cx="278.1" cy="301.7" r="0.89" fill="#22d3ee" opacity="0.38" class="star-slow" style="animation-duration:5.81s;animation-delay:2.18s"/>
+<circle cx="914.8" cy="104.8" r="1.26" fill="#a78bfa" opacity="0.35" class="star-mid" style="animation-duration:4.07s;animation-delay:0.29s"/>
+<circle cx="191.3" cy="113.5" r="0.99" fill="#fbbf24" opacity="0.12" class="star-fast" style="animation-duration:8.36s;animation-delay:2.08s"/>
+<circle cx="1087.7" cy="232.8" r="1.01" fill="#fbbf24" opacity="0.41" class="star-mid" style="animation-duration:6.48s;animation-delay:1.41s"/>
+<circle cx="218.7" cy="377.2" r="0.57" fill="#ffffff" opacity="0.27" class="star-slow" style="animation-duration:6.75s;animation-delay:4.52s"/>
+<circle cx="414.9" cy="357.7" r="0.53" fill="#ffffff" opacity="0.19" class="star-fast" style="animation-duration:6.82s;animation-delay:0.52s"/>
+<circle cx="675.4" cy="290.2" r="0.97" fill="#fbbf24" opacity="0.11" class="star-slow" style="animation-duration:6.08s;animation-delay:3.80s"/>
+<circle cx="443.4" cy="38.7" r="0.83" fill="#22d3ee" opacity="0.37" class="star-mid" style="animation-duration:7.80s;animation-delay:0.78s"/>
+<circle cx="486.7" cy="383.8" r="0.53" fill="#a78bfa" opacity="0.41" class="star-fast" style="animation-duration:8.93s;animation-delay:4.78s"/>
+<circle cx="683.1" cy="228.0" r="0.77" fill="#fbbf24" opacity="0.17" class="star-mid" style="animation-duration:5.76s;animation-delay:3.84s"/>
+<circle cx="143.7" cy="79.0" r="0.67" fill="#fbbf24" opacity="0.29" class="star-slow" style="animation-duration:3.21s;animation-delay:1.87s"/>
+<circle cx="765.3" cy="286.4" r="0.74" fill="#22d3ee" opacity="0.24" class="star-fast" style="animation-duration:3.67s;animation-delay:3.13s"/>
+<circle cx="1145.4" cy="93.7" r="0.60" fill="#a78bfa" opacity="0.45" class="star-slow" style="animation-duration:6.56s;animation-delay:3.83s"/>
+<circle cx="302.6" cy="78.6" r="0.73" fill="#22d3ee" opacity="0.39" class="star-mid" style="animation-duration:6.32s;animation-delay:4.88s"/>
+<circle cx="318.4" cy="108.0" r="0.43" fill="#22d3ee" opacity="0.11" class="star-fast" style="animation-duration:4.76s;animation-delay:5.06s"/>
+<circle cx="934.2" cy="35.2" r="1.02" fill="#a78bfa" opacity="0.46" class="star-mid" style="animation-duration:5.16s;animation-delay:2.72s"/>
+<circle cx="1019.1" cy="204.0" r="0.48" fill="#fbbf24" opacity="0.11" class="star-slow" style="animation-duration:6.25s;animation-delay:2.71s"/>
+<circle cx="765.6" cy="92.5" r="0.48" fill="#fbbf24" opacity="0.31" class="star-fast" style="animation-duration:8.46s;animation-delay:4.24s"/>
+<circle cx="102.7" cy="187.1" r="0.47" fill="#a78bfa" opacity="0.39" class="star-slow" style="animation-duration:7.68s;animation-delay:2.84s"/>
+<circle cx="597.7" cy="167.0" r="1.12" fill="#a78bfa" opacity="0.29" class="star-mid" style="animation-duration:6.08s;animation-delay:2.34s"/>
+<circle cx="965.5" cy="8.9" r="1.40" fill="#a78bfa" opacity="0.19" class="star-fast" style="animation-duration:8.86s;animation-delay:2.66s"/>
+<circle cx="882.3" cy="149.1" r="1.32" fill="#ffffff" opacity="0.33" class="star-mid" style="animation-duration:3.86s;animation-delay:0.25s"/>
+<circle cx="112.8" cy="383.8" r="0.67" fill="#ffffff" opacity="0.44" class="star-slow" style="animation-duration:9.15s;animation-delay:4.69s"/>
+<circle cx="520.9" cy="228.0" r="0.40" fill="#ffffff" opacity="0.39" class="star-fast" style="animation-duration:5.07s;animation-delay:3.43s"/>
+<circle cx="1174.5" cy="83.8" r="0.95" fill="#fbbf24" opacity="0.33" class="star-slow" style="animation-duration:3.51s;animation-delay:0.86s"/>
+<circle cx="1082.7" cy="177.4" r="1.30" fill="#22d3ee" opacity="0.07" class="star-mid" style="animation-duration:7.61s;animation-delay:0.70s"/>
+<circle cx="578.1" cy="273.8" r="0.80" fill="#a78bfa" opacity="0.17" class="star-fast" style="animation-duration:8.41s;animation-delay:4.52s"/>
+<circle cx="423.8" cy="165.2" r="0.54" fill="#a78bfa" opacity="0.10" class="star-mid" style="animation-duration:3.39s;animation-delay:4.96s"/>
+<circle cx="589.4" cy="65.6" r="0.89" fill="#fbbf24" opacity="0.40" class="star-slow" style="animation-duration:6.65s;animation-delay:5.51s"/>
+<circle cx="98.7" cy="291.3" r="0.57" fill="#ffffff" opacity="0.44" class="star-fast" style="animation-duration:8.52s;animation-delay:2.37s"/>
+<circle cx="1085.9" cy="240.3" r="0.69" fill="#22d3ee" opacity="0.39" class="star-slow" style="animation-duration:6.73s;animation-delay:2.50s"/>
+<circle cx="355.8" cy="114.3" r="0.96" fill="#a78bfa" opacity="0.39" class="star-mid" style="animation-duration:3.88s;animation-delay:2.25s"/>
+<circle cx="411.9" cy="209.2" r="1.34" fill="#22d3ee" opacity="0.08" class="star-fast" style="animation-duration:5.63s;animation-delay:1.52s"/>
+<circle cx="738.2" cy="129.7" r="1.01" fill="#fbbf24" opacity="0.17" class="star-mid" style="animation-duration:6.40s;animation-delay:3.93s"/>
+<circle cx="712.0" cy="176.4" r="0.37" fill="#ffffff" opacity="0.19" class="star-slow" style="animation-duration:9.05s;animation-delay:3.93s"/>
+<circle cx="616.1" cy="63.1" r="1.34" fill="#a78bfa" opacity="0.28" class="star-fast" style="animation-duration:7.41s;animation-delay:2.28s"/>
+<circle cx="343.6" cy="36.7" r="1.33" fill="#22d3ee" opacity="0.45" class="star-slow" style="animation-duration:6.37s;animation-delay:4.17s"/>
+<circle cx="1121.2" cy="117.6" r="0.48" fill="#ffffff" opacity="0.15" class="star-mid" style="animation-duration:5.00s;animation-delay:5.53s"/>
+<circle cx="1139.4" cy="115.4" r="1.33" fill="#22d3ee" opacity="0.38" class="star-fast" style="animation-duration:3.33s;animation-delay:4.60s"/>
+<circle cx="173.2" cy="193.5" r="0.57" fill="#a78bfa" opacity="0.37" class="star-mid" style="animation-duration:3.39s;animation-delay:3.85s"/>
+<circle cx="836.1" cy="309.4" r="0.45" fill="#ffffff" opacity="0.42" class="star-slow" style="animation-duration:7.64s;animation-delay:5.26s"/>
+<circle cx="104.7" cy="71.9" r="0.47" fill="#a78bfa" opacity="0.40" class="star-fast" style="animation-duration:4.09s;animation-delay:1.99s"/>
+<circle cx="1177.0" cy="23.6" r="1.05" fill="#ffffff" opacity="0.46" class="star-slow" style="animation-duration:3.61s;animation-delay:1.59s"/>
+<circle cx="637.3" cy="225.7" r="0.62" fill="#a78bfa" opacity="0.46" class="star-mid" style="animation-duration:8.58s;animation-delay:4.76s"/>
+<circle cx="481.5" cy="248.1" r="0.94" fill="#22d3ee" opacity="0.26" class="star-fast" style="animation-duration:3.78s;animation-delay:3.87s"/>
+<circle cx="715.3" cy="390.1" r="0.62" fill="#ffffff" opacity="0.10" class="star-mid" style="animation-duration:4.01s;animation-delay:5.28s"/>
+<circle cx="537.5" cy="181.7" r="1.18" fill="#a78bfa" opacity="0.34" class="star-slow" style="animation-duration:7.55s;animation-delay:2.05s"/>
+<circle cx="557.6" cy="39.4" r="0.50" fill="#fbbf24" opacity="0.23" class="star-fast" style="animation-duration:8.68s;animation-delay:5.80s"/>
+<circle cx="13.6" cy="227.6" r="0.80" fill="#fbbf24" opacity="0.22" class="star-slow" style="animation-duration:4.35s;animation-delay:2.40s"/>
+<circle cx="871.2" cy="320.4" r="0.52" fill="#ffffff" opacity="0.32" class="star-mid" style="animation-duration:8.13s;animation-delay:3.46s"/>
+<circle cx="402.4" cy="355.4" r="0.87" fill="#ffffff" opacity="0.31" class="star-fast" style="animation-duration:8.13s;animation-delay:0.57s"/>
+<circle cx="287.2" cy="234.8" r="1.09" fill="#a78bfa" opacity="0.45" class="star-mid" style="animation-duration:6.61s;animation-delay:5.52s"/>
+<circle cx="978.4" cy="121.9" r="0.45" fill="#22d3ee" opacity="0.26" class="star-slow" style="animation-duration:4.76s;animation-delay:3.54s"/>
+<circle cx="1168.4" cy="130.2" r="0.69" fill="#a78bfa" opacity="0.43" class="star-fast" style="animation-duration:7.79s;animation-delay:3.15s"/>
+<circle cx="326.0" cy="258.9" r="1.24" fill="#fbbf24" opacity="0.31" class="star-slow" style="animation-duration:7.89s;animation-delay:4.88s"/>
+<circle cx="111.3" cy="344.8" r="0.55" fill="#ffffff" opacity="0.44" class="star-mid" style="animation-duration:7.53s;animation-delay:0.10s"/>
+<circle cx="636.3" cy="238.9" r="0.70" fill="#22d3ee" opacity="0.18" class="star-fast" style="animation-duration:4.06s;animation-delay:4.66s"/>
+<circle cx="457.4" cy="95.3" r="1.33" fill="#fbbf24" opacity="0.37" class="star-mid" style="animation-duration:7.34s;animation-delay:1.90s"/>
+<circle cx="816.9" cy="100.9" r="0.58" fill="#a78bfa" opacity="0.31" class="star-slow" style="animation-duration:7.14s;animation-delay:1.62s"/>
+<circle cx="913.9" cy="184.7" r="1.08" fill="#22d3ee" opacity="0.25" class="star-fast" style="animation-duration:4.00s;animation-delay:2.95s"/>
+<circle cx="744.0" cy="212.1" r="0.97" fill="#ffffff" opacity="0.40" class="star-slow" style="animation-duration:9.07s;animation-delay:4.06s"/>
+<circle cx="734.8" cy="108.6" r="0.88" fill="#ffffff" opacity="0.10" class="star-mid" style="animation-duration:8.06s;animation-delay:3.84s"/>
+<circle cx="161.6" cy="283.5" r="1.29" fill="#22d3ee" opacity="0.18" class="star-fast" style="animation-duration:5.02s;animation-delay:2.27s"/>
+<circle cx="550.8" cy="89.6" r="1.25" fill="#ffffff" opacity="0.24" class="star-mid" style="animation-duration:4.84s;animation-delay:2.61s"/>
+<circle cx="696.9" cy="223.4" r="0.92" fill="#22d3ee" opacity="0.39" class="star-slow" style="animation-duration:7.49s;animation-delay:1.16s"/>
+<circle cx="213.9" cy="366.3" r="1.14" fill="#22d3ee" opacity="0.48" class="star-fast" style="animation-duration:7.14s;animation-delay:5.20s"/>
+<circle cx="330.3" cy="283.5" r="0.71" fill="#a78bfa" opacity="0.29" class="star-slow" style="animation-duration:5.17s;animation-delay:2.01s"/>
+<circle cx="1114.1" cy="213.7" r="1.16" fill="#ffffff" opacity="0.23" class="star-mid" style="animation-duration:5.58s;animation-delay:2.95s"/>
+<circle cx="740.4" cy="173.5" r="0.82" fill="#22d3ee" opacity="0.08" class="star-fast" style="animation-duration:4.20s;animation-delay:0.18s"/>
+<circle cx="792.7" cy="328.2" r="1.27" fill="#ffffff" opacity="0.37" class="star-mid" style="animation-duration:8.67s;animation-delay:4.52s"/>
+<circle cx="1004.7" cy="268.2" r="0.84" fill="#ffffff" opacity="0.09" class="star-slow" style="animation-duration:8.90s;animation-delay:3.22s"/>
+<circle cx="429.7" cy="44.4" r="1.17" fill="#22d3ee" opacity="0.27" class="star-fast" style="animation-duration:8.90s;animation-delay:3.84s"/>
+<circle cx="1001.3" cy="373.9" r="1.15" fill="#ffffff" opacity="0.45" class="star-slow" style="animation-duration:4.40s;animation-delay:2.11s"/>
+<circle cx="551.2" cy="365.6" r="0.54" fill="#fbbf24" opacity="0.14" class="star-mid" style="animation-duration:8.03s;animation-delay:5.36s"/>
+<circle cx="325.7" cy="252.9" r="1.37" fill="#ffffff" opacity="0.29" class="star-fast" style="animation-duration:9.36s;animation-delay:1.52s"/>
+<circle cx="705.4" cy="53.5" r="1.26" fill="#22d3ee" opacity="0.08" class="star-mid" style="animation-duration:8.40s;animation-delay:3.98s"/>
+<circle cx="53.5" cy="82.3" r="0.99" fill="#a78bfa" opacity="0.42" class="star-slow" style="animation-duration:7.64s;animation-delay:1.74s"/>
+<circle cx="428.4" cy="54.0" r="0.76" fill="#a78bfa" opacity="0.09" class="star-fast" style="animation-duration:4.45s;animation-delay:1.36s"/>
+<circle cx="1051.2" cy="280.8" r="0.76" fill="#fbbf24" opacity="0.40" class="star-slow" style="animation-duration:6.08s;animation-delay:3.83s"/>
+<circle cx="236.7" cy="357.4" r="1.26" fill="#22d3ee" opacity="0.33" class="star-mid" style="animation-duration:3.66s;animation-delay:3.38s"/>
+<circle cx="1085.1" cy="367.7" r="0.87" fill="#ffffff" opacity="0.46" class="star-fast" style="animation-duration:3.22s;animation-delay:1.52s"/>
+<circle cx="777.0" cy="139.6" r="0.38" fill="#ffffff" opacity="0.32" class="star-mid" style="animation-duration:3.68s;animation-delay:5.26s"/>
+<circle cx="907.0" cy="313.4" r="0.52" fill="#a78bfa" opacity="0.33" class="star-slow" style="animation-duration:4.99s;animation-delay:0.73s"/>
+<circle cx="87.9" cy="369.4" r="0.63" fill="#ffffff" opacity="0.44" class="star-fast" style="animation-duration:4.15s;animation-delay:3.47s"/>
+<circle cx="807.1" cy="53.4" r="1.05" fill="#ffffff" opacity="0.08" class="star-slow" style="animation-duration:5.66s;animation-delay:0.51s"/>
+<circle cx="1121.1" cy="202.4" r="0.44" fill="#fbbf24" opacity="0.16" class="star-mid" style="animation-duration:4.88s;animation-delay:2.43s"/>
+<circle cx="690.7" cy="174.0" r="1.31" fill="#fbbf24" opacity="0.44" class="star-fast" style="animation-duration:6.88s;animation-delay:2.10s"/>
+<circle cx="649.1" cy="45.4" r="0.77" fill="#a78bfa" opacity="0.19" class="star-mid" style="animation-duration:6.23s;animation-delay:3.69s"/>
+<circle cx="757.7" cy="137.0" r="1.40" fill="#ffffff" opacity="0.21" class="star-slow" style="animation-duration:9.02s;animation-delay:0.43s"/>
+<circle cx="742.1" cy="154.0" r="0.79" fill="#ffffff" opacity="0.27" class="star-fast" style="animation-duration:6.96s;animation-delay:3.84s"/>
+<circle cx="1147.5" cy="93.9" r="0.35" fill="#fbbf24" opacity="0.13" class="star-slow" style="animation-duration:7.03s;animation-delay:4.48s"/>
+<circle cx="1090.9" cy="366.6" r="0.49" fill="#fbbf24" opacity="0.13" class="star-mid" style="animation-duration:7.23s;animation-delay:5.12s"/>
+<circle cx="43.7" cy="306.8" r="1.28" fill="#fbbf24" opacity="0.48" class="star-fast" style="animation-duration:7.35s;animation-delay:3.65s"/>
+<circle cx="977.6" cy="382.5" r="1.03" fill="#a78bfa" opacity="0.14" class="star-mid" style="animation-duration:7.06s;animation-delay:0.12s"/>
+<circle cx="1076.7" cy="108.6" r="0.60" fill="#a78bfa" opacity="0.33" class="star-slow" style="animation-duration:4.05s;animation-delay:5.18s"/>
+<circle cx="383.8" cy="269.2" r="0.60" fill="#22d3ee" opacity="0.29" class="star-fast" style="animation-duration:3.87s;animation-delay:4.88s"/>
+
+
+<line x1="118" y1="58" x2="152" y2="72" stroke="url(#shoot)" stroke-width="1.1" class="shooting" style="animation-delay:8s;--tx:105px;--ty:52px;animation-duration:11s"/>
+<line x1="890" y1="45" x2="923" y2="58" stroke="url(#shoot)" stroke-width="1.0" class="shooting" style="animation-delay:15s;--tx:92px;--ty:45px;animation-duration:14s"/>
+
+<g opacity="0">
+  <animate attributeName="opacity" from="0" to="1" begin="2.05s" dur=".7s" fill="freeze"/>
+  <text x="600" y="42" text-anchor="middle" fill="#f8fafc" font-size="31" font-weight="700" letter-spacing="3" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace">TEMEKUTZA</text>
+  <text x="600" y="68" text-anchor="middle" fill="#64748b" font-size="13" letter-spacing="2" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace">SOFTWARE ENGINEER · DATA ENGINEER · AI SYSTEMS</text>
+</g>
+
+<!-- each colored spiral is now physically connected to its own orbit -->
+
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.55s" dur=".35s" fill="freeze"/>
+    <!-- launch spiral: glow + bright flow -->
+    <path d="M600 235 C612 219 632 220 640 236 C648 253 632 270 611 261 C586 250 586 222 612 205 C650 180 710 184 760 207 C783 218 797 228 805 235" fill="none" stroke="#22d3ee" stroke-opacity=".10" stroke-width="9" filter="url(#flowBlur)" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100" stroke-linecap="round">
+      <animate attributeName="stroke-dashoffset" from="100" to="0" begin="0.55s" dur="1.15s" fill="freeze"/>
+    </path>
+    <path d="M600 235 C612 219 632 220 640 236 C648 253 632 270 611 261 C586 250 586 222 612 205 C650 180 710 184 760 207 C783 218 797 228 805 235" fill="none" stroke="#22d3ee" stroke-opacity=".72" stroke-width="2.0" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100" stroke-linecap="round">
+      <animate attributeName="stroke-dashoffset" from="100" to="0" begin="0.55s" dur="1.15s" fill="freeze"/>
+    </path>
+
+    <!-- orbit starts exactly where spiral ends -->
+    <path d="M805 235 A205 58 0 1 1 395 235 A205 58 0 1 1 805 235" fill="none" stroke="#22d3ee" stroke-opacity=".10" stroke-width="5.5" filter="url(#axisGlow)"/>
+    <path d="M805 235 A205 58 0 1 1 395 235 A205 58 0 1 1 805 235" fill="none" stroke="url(#cyanLine)" stroke-width="1.25" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100">
+      <animate attributeName="stroke-dashoffset" from="100" to="0" begin="1.45s" dur="1.05s" fill="freeze"/>
+    </path>
+    <path d="M805 235 A205 58 0 1 1 395 235 A205 58 0 1 1 805 235" fill="none" stroke="#22d3ee" stroke-opacity=".48" stroke-width=".85" pathLength="100" stroke-dasharray="3 9">
+      <animate attributeName="stroke-dashoffset" from="0" to="-100" begin="2.50s" dur="20s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.95s" dur=".35s" fill="freeze"/>
+    <!-- launch spiral: glow + bright flow -->
+    <path d="M600 235 C610 216 635 212 648 232 C662 253 642 279 615 272 C583 264 574 226 603 197 C648 151 732 145 812 174 C858 191 893 215 915 235" fill="none" stroke="#a78bfa" stroke-opacity=".10" stroke-width="9" filter="url(#flowBlur)" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100" stroke-linecap="round">
+      <animate attributeName="stroke-dashoffset" from="100" to="0" begin="0.95s" dur="1.35s" fill="freeze"/>
+    </path>
+    <path d="M600 235 C610 216 635 212 648 232 C662 253 642 279 615 272 C583 264 574 226 603 197 C648 151 732 145 812 174 C858 191 893 215 915 235" fill="none" stroke="#a78bfa" stroke-opacity=".72" stroke-width="2.0" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100" stroke-linecap="round">
+      <animate attributeName="stroke-dashoffset" from="100" to="0" begin="0.95s" dur="1.35s" fill="freeze"/>
+    </path>
+
+    <!-- orbit starts exactly where spiral ends -->
+    <path d="M915 235 A315 90 0 1 1 285 235 A315 90 0 1 1 915 235" fill="none" stroke="#a78bfa" stroke-opacity=".10" stroke-width="5.5" filter="url(#axisGlow)"/>
+    <path d="M915 235 A315 90 0 1 1 285 235 A315 90 0 1 1 915 235" fill="none" stroke="url(#violetLine)" stroke-width="1.25" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100">
+      <animate attributeName="stroke-dashoffset" from="100" to="0" begin="2.05s" dur="1.05s" fill="freeze"/>
+    </path>
+    <path d="M915 235 A315 90 0 1 1 285 235 A315 90 0 1 1 915 235" fill="none" stroke="#a78bfa" stroke-opacity=".48" stroke-width=".85" pathLength="100" stroke-dasharray="3 9">
+      <animate attributeName="stroke-dashoffset" from="0" to="-100" begin="3.10s" dur="29s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="1.35s" dur=".35s" fill="freeze"/>
+    <!-- launch spiral: glow + bright flow -->
+    <path d="M600 235 C610 212 641 205 658 228 C677 254 652 288 618 282 C576 274 558 224 590 181 C641 112 748 102 860 139 C934 164 989 203 1030 235" fill="none" stroke="#fbbf24" stroke-opacity=".10" stroke-width="9" filter="url(#flowBlur)" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100" stroke-linecap="round">
+      <animate attributeName="stroke-dashoffset" from="100" to="0" begin="1.35s" dur="1.55s" fill="freeze"/>
+    </path>
+    <path d="M600 235 C610 212 641 205 658 228 C677 254 652 288 618 282 C576 274 558 224 590 181 C641 112 748 102 860 139 C934 164 989 203 1030 235" fill="none" stroke="#fbbf24" stroke-opacity=".72" stroke-width="2.0" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100" stroke-linecap="round">
+      <animate attributeName="stroke-dashoffset" from="100" to="0" begin="1.35s" dur="1.55s" fill="freeze"/>
+    </path>
+
+    <!-- orbit starts exactly where spiral ends -->
+    <path d="M1030 235 A430 122 0 1 1 170 235 A430 122 0 1 1 1030 235" fill="none" stroke="#fbbf24" stroke-opacity=".10" stroke-width="5.5" filter="url(#axisGlow)"/>
+    <path d="M1030 235 A430 122 0 1 1 170 235 A430 122 0 1 1 1030 235" fill="none" stroke="url(#goldLine)" stroke-width="1.25" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100">
+      <animate attributeName="stroke-dashoffset" from="100" to="0" begin="2.65s" dur="1.05s" fill="freeze"/>
+    </path>
+    <path d="M1030 235 A430 122 0 1 1 170 235 A430 122 0 1 1 1030 235" fill="none" stroke="#fbbf24" stroke-opacity=".48" stroke-width=".85" pathLength="100" stroke-dasharray="3 9">
+      <animate attributeName="stroke-dashoffset" from="0" to="-100" begin="3.70s" dur="41s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+<!-- pure black wormhole / event horizon -->
+<g opacity="0">
+  <animate attributeName="opacity" from="0" to="1" begin="0s" dur=".35s" fill="freeze"/>
+  <circle cx="600" cy="235" r="59" fill="#000000" opacity=".28" filter="url(#coreGlow)">
+    <animate attributeName="r" values="55;63;55" dur="4.7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".18;.34;.18" dur="4.7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="600" cy="235" r="40" fill="#000000"/>
+  <circle cx="600" cy="235" r="41.5" fill="none" stroke="url(#edgeGradient)" stroke-width="2.2" stroke-dasharray="13 22" opacity=".52">
+    <animateTransform attributeName="transform" type="rotate" from="0 600 235" to="360 600 235" dur="8.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".24;.62;.24" dur="3.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="600" cy="235" r="44" fill="none" stroke="#ffffff" stroke-opacity=".10" stroke-width=".8" stroke-dasharray="4 18">
+    <animateTransform attributeName="transform" type="rotate" from="360 600 235" to="0 600 235" dur="13s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="600" cy="235" r="33" fill="#000000"/>
+  <text x="600" y="239.5" text-anchor="middle" fill="#f8fafc" font-size="11.5" font-weight="700" letter-spacing="1.4" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" opacity=".94" filter="url(#softGlow)">IMEDJI</text>
+</g>
+
+
+  <g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="3.8s" dur=".18s" fill="freeze"/>
+      <animateMotion begin="3.8s" dur="1.65s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".16 .72 .22 1">
+        <mpath href="#cyan-launch"/>
+      </animateMotion>
+      <animateMotion begin="5.45s" dur="120s" repeatCount="indefinite" calcMode="linear">
+        <mpath href="#cyan-orbit"/>
+      </animateMotion>
+      <circle cx="0" cy="0" r="1.6" fill="#22d3ee" filter="url(#softGlow)">
+        <animate attributeName="r" values="1.6;4.2" begin="3.8s" dur="1.65s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".16 .72 .22 1"/>
+        <animate attributeName="opacity" values=".90;.58;.28;.58;.90" begin="5.45s" dur="120s" repeatCount="indefinite"/>
+        <animate attributeName="r" values="4.2;3.8;3.3;3.8;4.2" begin="5.45s" dur="120s" repeatCount="indefinite"/>
+      </circle>
+      <text x="12" y="-8" text-anchor="start" fill="#22d3ee" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" opacity="0">
+        <animate attributeName="opacity" from="0" to=".84" begin="4.25s" dur=".45s" fill="freeze"/>
+        <animate attributeName="opacity" values=".90;.58;.28;.58;.90" begin="5.45s" dur="120s" repeatCount="indefinite"/>
+        Python
+      </text>
+    </g>
+  </g>
+  <g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="4.25s" dur=".18s" fill="freeze"/>
+      <animateMotion begin="4.25s" dur="1.65s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".16 .72 .22 1">
+        <mpath href="#cyan-launch"/>
+      </animateMotion>
+      <animateMotion begin="5.90s" dur="120s" repeatCount="indefinite" calcMode="linear">
+        <mpath href="#cyan-orbit"/>
+      </animateMotion>
+      <circle cx="0" cy="0" r="1.6" fill="#22d3ee" filter="url(#softGlow)">
+        <animate attributeName="r" values="1.6;4.2" begin="4.25s" dur="1.65s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".16 .72 .22 1"/>
+        <animate attributeName="opacity" values=".90;.58;.28;.58;.90" begin="5.90s" dur="120s" repeatCount="indefinite"/>
+        <animate attributeName="r" values="4.2;3.8;3.3;3.8;4.2" begin="5.90s" dur="120s" repeatCount="indefinite"/>
+      </circle>
+      <text x="12" y="-8" text-anchor="start" fill="#22d3ee" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" opacity="0">
+        <animate attributeName="opacity" from="0" to=".84" begin="4.70s" dur=".45s" fill="freeze"/>
+        <animate attributeName="opacity" values=".90;.58;.28;.58;.90" begin="5.90s" dur="120s" repeatCount="indefinite"/>
+        FastAPI
+      </text>
+    </g>
+  </g>
+  <g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="4.7s" dur=".18s" fill="freeze"/>
+      <animateMotion begin="4.7s" dur="1.65s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".16 .72 .22 1">
+        <mpath href="#cyan-launch"/>
+      </animateMotion>
+      <animateMotion begin="6.35s" dur="120s" repeatCount="indefinite" calcMode="linear">
+        <mpath href="#cyan-orbit"/>
+      </animateMotion>
+      <circle cx="0" cy="0" r="1.6" fill="#22d3ee" filter="url(#softGlow)">
+        <animate attributeName="r" values="1.6;4.2" begin="4.7s" dur="1.65s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".16 .72 .22 1"/>
+        <animate attributeName="opacity" values=".90;.58;.28;.58;.90" begin="6.35s" dur="120s" repeatCount="indefinite"/>
+        <animate attributeName="r" values="4.2;3.8;3.3;3.8;4.2" begin="6.35s" dur="120s" repeatCount="indefinite"/>
+      </circle>
+      <text x="12" y="-8" text-anchor="start" fill="#22d3ee" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" opacity="0">
+        <animate attributeName="opacity" from="0" to=".84" begin="5.15s" dur=".45s" fill="freeze"/>
+        <animate attributeName="opacity" values=".90;.58;.28;.58;.90" begin="6.35s" dur="120s" repeatCount="indefinite"/>
+        Git
+      </text>
+    </g>
+  </g>
+  <g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="5.15s" dur=".18s" fill="freeze"/>
+      <animateMotion begin="5.15s" dur="1.65s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".16 .72 .22 1">
+        <mpath href="#cyan-launch"/>
+      </animateMotion>
+      <animateMotion begin="6.80s" dur="120s" repeatCount="indefinite" calcMode="linear">
+        <mpath href="#cyan-orbit"/>
+      </animateMotion>
+      <circle cx="0" cy="0" r="1.6" fill="#22d3ee" filter="url(#softGlow)">
+        <animate attributeName="r" values="1.6;4.2" begin="5.15s" dur="1.65s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".16 .72 .22 1"/>
+        <animate attributeName="opacity" values=".90;.58;.28;.58;.90" begin="6.80s" dur="120s" repeatCount="indefinite"/>
+        <animate attributeName="r" values="4.2;3.8;3.3;3.8;4.2" begin="6.80s" dur="120s" repeatCount="indefinite"/>
+      </circle>
+      <text x="12" y="-8" text-anchor="start" fill="#22d3ee" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" opacity="0">
+        <animate attributeName="opacity" from="0" to=".84" begin="5.60s" dur=".45s" fill="freeze"/>
+        <animate attributeName="opacity" values=".90;.58;.28;.58;.90" begin="6.80s" dur="120s" repeatCount="indefinite"/>
+        Linux
+      </text>
+    </g>
+  </g>
+  <g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="5.6s" dur=".18s" fill="freeze"/>
+      <animateMotion begin="5.6s" dur="1.65s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".16 .72 .22 1">
+        <mpath href="#cyan-launch"/>
+      </animateMotion>
+      <animateMotion begin="7.25s" dur="120s" repeatCount="indefinite" calcMode="linear">
+        <mpath href="#cyan-orbit"/>
+      </animateMotion>
+      <circle cx="0" cy="0" r="1.6" fill="#22d3ee" filter="url(#softGlow)">
+        <animate attributeName="r" values="1.6;4.2" begin="5.6s" dur="1.65s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".16 .72 .22 1"/>
+        <animate attributeName="opacity" values=".90;.58;.28;.58;.90" begin="7.25s" dur="120s" repeatCount="indefinite"/>
+        <animate attributeName="r" values="4.2;3.8;3.3;3.8;4.2" begin="7.25s" dur="120s" repeatCount="indefinite"/>
+      </circle>
+      <text x="12" y="-8" text-anchor="start" fill="#22d3ee" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" opacity="0">
+        <animate attributeName="opacity" from="0" to=".84" begin="6.05s" dur=".45s" fill="freeze"/>
+        <animate attributeName="opacity" values=".90;.58;.28;.58;.90" begin="7.25s" dur="120s" repeatCount="indefinite"/>
+        Docker
+      </text>
+    </g>
+  </g>
+  <g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="5.25s" dur=".18s" fill="freeze"/>
+      <animateMotion begin="5.25s" dur="1.9s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".16 .72 .22 1">
+        <mpath href="#violet-launch"/>
+      </animateMotion>
+      <animateMotion begin="7.15s" dur="120s" repeatCount="indefinite" calcMode="linear">
+        <mpath href="#violet-orbit"/>
+      </animateMotion>
+      <circle cx="0" cy="0" r="1.6" fill="#a78bfa" filter="url(#softGlow)">
+        <animate attributeName="r" values="1.6;4.2" begin="5.25s" dur="1.9s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".16 .72 .22 1"/>
+        <animate attributeName="opacity" values=".90;.58;.28;.58;.90" begin="7.15s" dur="120s" repeatCount="indefinite"/>
+        <animate attributeName="r" values="4.2;3.8;3.3;3.8;4.2" begin="7.15s" dur="120s" repeatCount="indefinite"/>
+      </circle>
+      <text x="12" y="-8" text-anchor="start" fill="#a78bfa" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" opacity="0">
+        <animate attributeName="opacity" from="0" to=".84" begin="5.70s" dur=".45s" fill="freeze"/>
+        <animate attributeName="opacity" values=".90;.58;.28;.58;.90" begin="7.15s" dur="120s" repeatCount="indefinite"/>
+        SQL
+      </text>
+    </g>
+  </g>
+  <g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="5.7s" dur=".18s" fill="freeze"/>
+      <animateMotion begin="5.7s" dur="1.9s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".16 .72 .22 1">
+        <mpath href="#violet-launch"/>
+      </animateMotion>
+      <animateMotion begin="7.60s" dur="120s" repeatCount="indefinite" calcMode="linear">
+        <mpath href="#violet-orbit"/>
+      </animateMotion>
+      <circle cx="0" cy="0" r="1.6" fill="#a78bfa" filter="url(#softGlow)">
+        <animate attributeName="r" values="1.6;4.2" begin="5.7s" dur="1.9s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".16 .72 .22 1"/>
+        <animate attributeName="opacity" values=".90;.58;.28;.58;.90" begin="7.60s" dur="120s" repeatCount="indefinite"/>
+        <animate attributeName="r" values="4.2;3.8;3.3;3.8;4.2" begin="7.60s" dur="120s" repeatCount="indefinite"/>
+      </circle>
+      <text x="12" y="-8" text-anchor="start" fill="#a78bfa" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" opacity="0">
+        <animate attributeName="opacity" from="0" to=".84" begin="6.15s" dur=".45s" fill="freeze"/>
+        <animate attributeName="opacity" values=".90;.58;.28;.58;.90" begin="7.60s" dur="120s" repeatCount="indefinite"/>
+        PostgreSQL
+      </text>
+    </g>
+  </g>
+  <g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="6.15s" dur=".18s" fill="freeze"/>
+      <animateMotion begin="6.15s" dur="1.9s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".16 .72 .22 1">
+        <mpath href="#violet-launch"/>
+      </animateMotion>
+      <animateMotion begin="8.05s" dur="120s" repeatCount="indefinite" calcMode="linear">
+        <mpath href="#violet-orbit"/>
+      </animateMotion>
+      <circle cx="0" cy="0" r="1.6" fill="#a78bfa" filter="url(#softGlow)">
+        <animate attributeName="r" values="1.6;4.2" begin="6.15s" dur="1.9s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".16 .72 .22 1"/>
+        <animate attributeName="opacity" values=".90;.58;.28;.58;.90" begin="8.05s" dur="120s" repeatCount="indefinite"/>
+        <animate attributeName="r" values="4.2;3.8;3.3;3.8;4.2" begin="8.05s" dur="120s" repeatCount="indefinite"/>
+      </circle>
+      <text x="12" y="-8" text-anchor="start" fill="#a78bfa" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" opacity="0">
+        <animate attributeName="opacity" from="0" to=".84" begin="6.60s" dur=".45s" fill="freeze"/>
+        <animate attributeName="opacity" values=".90;.58;.28;.58;.90" begin="8.05s" dur="120s" repeatCount="indefinite"/>
+        pandas
+      </text>
+    </g>
+  </g>
+  <g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="6.6s" dur=".18s" fill="freeze"/>
+      <animateMotion begin="6.6s" dur="1.9s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".16 .72 .22 1">
+        <mpath href="#violet-launch"/>
+      </animateMotion>
+      <animateMotion begin="8.50s" dur="120s" repeatCount="indefinite" calcMode="linear">
+        <mpath href="#violet-orbit"/>
+      </animateMotion>
+      <circle cx="0" cy="0" r="1.6" fill="#a78bfa" filter="url(#softGlow)">
+        <animate attributeName="r" values="1.6;4.2" begin="6.6s" dur="1.9s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".16 .72 .22 1"/>
+        <animate attributeName="opacity" values=".90;.58;.28;.58;.90" begin="8.50s" dur="120s" repeatCount="indefinite"/>
+        <animate attributeName="r" values="4.2;3.8;3.3;3.8;4.2" begin="8.50s" dur="120s" repeatCount="indefinite"/>
+      </circle>
+      <text x="12" y="-8" text-anchor="start" fill="#a78bfa" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" opacity="0">
+        <animate attributeName="opacity" from="0" to=".84" begin="7.05s" dur=".45s" fill="freeze"/>
+        <animate attributeName="opacity" values=".90;.58;.28;.58;.90" begin="8.50s" dur="120s" repeatCount="indefinite"/>
+        ETL / ELT
+      </text>
+    </g>
+  </g>
+  <g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="7.05s" dur=".18s" fill="freeze"/>
+      <animateMotion begin="7.05s" dur="1.9s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".16 .72 .22 1">
+        <mpath href="#violet-launch"/>
+      </animateMotion>
+      <animateMotion begin="8.95s" dur="120s" repeatCount="indefinite" calcMode="linear">
+        <mpath href="#violet-orbit"/>
+      </animateMotion>
+      <circle cx="0" cy="0" r="1.6" fill="#a78bfa" filter="url(#softGlow)">
+        <animate attributeName="r" values="1.6;4.2" begin="7.05s" dur="1.9s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".16 .72 .22 1"/>
+        <animate attributeName="opacity" values=".90;.58;.28;.58;.90" begin="8.95s" dur="120s" repeatCount="indefinite"/>
+        <animate attributeName="r" values="4.2;3.8;3.3;3.8;4.2" begin="8.95s" dur="120s" repeatCount="indefinite"/>
+      </circle>
+      <text x="12" y="-8" text-anchor="start" fill="#a78bfa" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" opacity="0">
+        <animate attributeName="opacity" from="0" to=".84" begin="7.50s" dur=".45s" fill="freeze"/>
+        <animate attributeName="opacity" values=".90;.58;.28;.58;.90" begin="8.95s" dur="120s" repeatCount="indefinite"/>
+        pgvector
+      </text>
+    </g>
+  </g>
+  <g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="6.8s" dur=".18s" fill="freeze"/>
+      <animateMotion begin="6.8s" dur="2.15s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".16 .72 .22 1">
+        <mpath href="#gold-launch"/>
+      </animateMotion>
+      <animateMotion begin="8.95s" dur="120s" repeatCount="indefinite" calcMode="linear">
+        <mpath href="#gold-orbit"/>
+      </animateMotion>
+      <circle cx="0" cy="0" r="1.6" fill="#fbbf24" filter="url(#softGlow)">
+        <animate attributeName="r" values="1.6;4.2" begin="6.8s" dur="2.15s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".16 .72 .22 1"/>
+        <animate attributeName="opacity" values=".90;.58;.28;.58;.90" begin="8.95s" dur="120s" repeatCount="indefinite"/>
+        <animate attributeName="r" values="4.2;3.8;3.3;3.8;4.2" begin="8.95s" dur="120s" repeatCount="indefinite"/>
+      </circle>
+      <text x="12" y="-8" text-anchor="start" fill="#fbbf24" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" opacity="0">
+        <animate attributeName="opacity" from="0" to=".84" begin="7.25s" dur=".45s" fill="freeze"/>
+        <animate attributeName="opacity" values=".90;.58;.28;.58;.90" begin="8.95s" dur="120s" repeatCount="indefinite"/>
+        PyTorch
+      </text>
+    </g>
+  </g>
+  <g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="7.25s" dur=".18s" fill="freeze"/>
+      <animateMotion begin="7.25s" dur="2.15s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".16 .72 .22 1">
+        <mpath href="#gold-launch"/>
+      </animateMotion>
+      <animateMotion begin="9.40s" dur="120s" repeatCount="indefinite" calcMode="linear">
+        <mpath href="#gold-orbit"/>
+      </animateMotion>
+      <circle cx="0" cy="0" r="1.6" fill="#fbbf24" filter="url(#softGlow)">
+        <animate attributeName="r" values="1.6;4.2" begin="7.25s" dur="2.15s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".16 .72 .22 1"/>
+        <animate attributeName="opacity" values=".90;.58;.28;.58;.90" begin="9.40s" dur="120s" repeatCount="indefinite"/>
+        <animate attributeName="r" values="4.2;3.8;3.3;3.8;4.2" begin="9.40s" dur="120s" repeatCount="indefinite"/>
+      </circle>
+      <text x="12" y="-8" text-anchor="start" fill="#fbbf24" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" opacity="0">
+        <animate attributeName="opacity" from="0" to=".84" begin="7.70s" dur=".45s" fill="freeze"/>
+        <animate attributeName="opacity" values=".90;.58;.28;.58;.90" begin="9.40s" dur="120s" repeatCount="indefinite"/>
+        XGBoost
+      </text>
+    </g>
+  </g>
+  <g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="7.7s" dur=".18s" fill="freeze"/>
+      <animateMotion begin="7.7s" dur="2.15s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".16 .72 .22 1">
+        <mpath href="#gold-launch"/>
+      </animateMotion>
+      <animateMotion begin="9.85s" dur="120s" repeatCount="indefinite" calcMode="linear">
+        <mpath href="#gold-orbit"/>
+      </animateMotion>
+      <circle cx="0" cy="0" r="1.6" fill="#fbbf24" filter="url(#softGlow)">
+        <animate attributeName="r" values="1.6;4.2" begin="7.7s" dur="2.15s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".16 .72 .22 1"/>
+        <animate attributeName="opacity" values=".90;.58;.28;.58;.90" begin="9.85s" dur="120s" repeatCount="indefinite"/>
+        <animate attributeName="r" values="4.2;3.8;3.3;3.8;4.2" begin="9.85s" dur="120s" repeatCount="indefinite"/>
+      </circle>
+      <text x="12" y="-8" text-anchor="start" fill="#fbbf24" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" opacity="0">
+        <animate attributeName="opacity" from="0" to=".84" begin="8.15s" dur=".45s" fill="freeze"/>
+        <animate attributeName="opacity" values=".90;.58;.28;.58;.90" begin="9.85s" dur="120s" repeatCount="indefinite"/>
+        RAG
+      </text>
+    </g>
+  </g>
+  <g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="8.15s" dur=".18s" fill="freeze"/>
+      <animateMotion begin="8.15s" dur="2.15s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".16 .72 .22 1">
+        <mpath href="#gold-launch"/>
+      </animateMotion>
+      <animateMotion begin="10.30s" dur="120s" repeatCount="indefinite" calcMode="linear">
+        <mpath href="#gold-orbit"/>
+      </animateMotion>
+      <circle cx="0" cy="0" r="1.6" fill="#fbbf24" filter="url(#softGlow)">
+        <animate attributeName="r" values="1.6;4.2" begin="8.15s" dur="2.15s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".16 .72 .22 1"/>
+        <animate attributeName="opacity" values=".90;.58;.28;.58;.90" begin="10.30s" dur="120s" repeatCount="indefinite"/>
+        <animate attributeName="r" values="4.2;3.8;3.3;3.8;4.2" begin="10.30s" dur="120s" repeatCount="indefinite"/>
+      </circle>
+      <text x="12" y="-8" text-anchor="start" fill="#fbbf24" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" opacity="0">
+        <animate attributeName="opacity" from="0" to=".84" begin="8.60s" dur=".45s" fill="freeze"/>
+        <animate attributeName="opacity" values=".90;.58;.28;.58;.90" begin="10.30s" dur="120s" repeatCount="indefinite"/>
+        LLM
+      </text>
+    </g>
+  </g>
+  <g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="8.6s" dur=".18s" fill="freeze"/>
+      <animateMotion begin="8.6s" dur="2.15s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".16 .72 .22 1">
+        <mpath href="#gold-launch"/>
+      </animateMotion>
+      <animateMotion begin="10.75s" dur="120s" repeatCount="indefinite" calcMode="linear">
+        <mpath href="#gold-orbit"/>
+      </animateMotion>
+      <circle cx="0" cy="0" r="1.6" fill="#fbbf24" filter="url(#softGlow)">
+        <animate attributeName="r" values="1.6;4.2" begin="8.6s" dur="2.15s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".16 .72 .22 1"/>
+        <animate attributeName="opacity" values=".90;.58;.28;.58;.90" begin="10.75s" dur="120s" repeatCount="indefinite"/>
+        <animate attributeName="r" values="4.2;3.8;3.3;3.8;4.2" begin="10.75s" dur="120s" repeatCount="indefinite"/>
+      </circle>
+      <text x="12" y="-8" text-anchor="start" fill="#fbbf24" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" opacity="0">
+        <animate attributeName="opacity" from="0" to=".84" begin="9.05s" dur=".45s" fill="freeze"/>
+        <animate attributeName="opacity" values=".90;.58;.28;.58;.90" begin="10.75s" dur="120s" repeatCount="indefinite"/>
+        Vector Search
+      </text>
+    </g>
+  </g>
+
+<text x="600" y="381" text-anchor="middle" fill="#475569" font-size="10" font-style="italic" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace">software × data × intelligence</text>
+</svg>
