@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Temekutza/Temekutza/main/assets/header-universe.svg" width="100%" alt="Temekutza technology universe" />
+<img src="https://raw.githubusercontent.com/Temekutza/Temekutza/main/assets/header-blackhole.svg" width="100%" alt="Temekutza technology universe" />
 
 </div>
 
